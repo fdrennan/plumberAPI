@@ -41,12 +41,17 @@ sudo usermod -aG docker ubuntu
 sudo apt  install docker-compose
 ```
 
+Log out and log in now to update docker to allow sudo. 
+
 ```
 git clone https://github.com/fdrennan/plumberAPI.git
 ```
-
+IMPORTANT
+#######
 # UPDATE THE NGINX.CONF FILE WITH YOUR PUBLIC IP ADDRESS
+#####
 ```
+vim /home/ubuntu/plumberAPI/misc/nginx.conf
 sudo cp /home/ubuntu/plumberAPI/misc/nginx.conf /etc/nginx/conf.d/nginx.conf
 sudo /etc/init.d/nginx restart
 ```
