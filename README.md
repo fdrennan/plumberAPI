@@ -29,25 +29,35 @@ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-   
+
+sudo apt-key fingerprint 0EBFCD88
+
+sudo apt-get update
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
 sudo usermod -aG docker ubuntu
 
 sudo apt  install docker-compose
-
 ```
 
 ```
 git clone https://github.com/fdrennan/plumberAPI.git
 ```
+
+# UPDATE THE NGINX.CONF FILE WITH YOUR PUBLIC IP ADDRESS
 ```
 sudo cp /home/ubuntu/plumberAPI/misc/nginx.conf /etc/nginx/conf.d/nginx.conf
 sudo /etc/init.d/nginx restart
 ```
 
 ```
+cd /home/ubuntu/plumberAPI/misc
 docker build -t dockerfile .
+docker-compose up -d
 ```
 
 ```
-
+siege -t 10 http://18.223.159.111/wait
+siege -t 10 http://18.223.159.111:8003/wait
 ```
