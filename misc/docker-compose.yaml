@@ -1,0 +1,90 @@
+version: '2'
+services:
+  app1:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8000:8000"
+  app2:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8001:8000"
+  app3:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8002:8000"
+  app4:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8003:8000"
+  app5:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8004:8000"
+  app6:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8005:8000"
+  app7:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8006:8000"
+  app8:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8007:8000"
+  app9:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8008:8000"
+  app10:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8009:8000"
+  app11:
+    image: dockerfile
+    command: /app/plumber.R
+    volumes:
+     - .:/app
+    restart: always
+    ports:
+     - "8010:8000"

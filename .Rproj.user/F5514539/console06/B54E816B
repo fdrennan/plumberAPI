@@ -16,3 +16,41 @@ To github.com:fdrennan/plumberAPI.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $  [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git add --all
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git commit -m 'update'
+[master 31d79aa] update
+ 19 files changed, 304 insertions(+)
+ create mode 100644 .Rbuildignore
+ create mode 100644 .Rproj.user/F5514539/console06/B54E816B
+ create mode 100644 .Rproj.user/F5514539/console06/B54E816B.env
+ create mode 100644 .Rproj.user/F5514539/console06/INDEX001
+ create mode 100644 .Rproj.user/F5514539/sources/prop/9DC87440
+ create mode 100644 .Rproj.user/F5514539/sources/prop/C624447
+ create mode 100644 .Rproj.user/F5514539/sources/prop/INDEX
+ create mode 100644 .Rproj.user/F5514539/sources/s-14782F16/A4847929
+ create mode 100644 .Rproj.user/F5514539/sources/s-14782F16/A4847929-contents
+ create mode 100644 .Rproj.user/F5514539/sources/s-14782F16/C095AA1D
+ create mode 100644 .Rproj.user/F5514539/sources/s-14782F16/C095AA1D-contents
+ create mode 100644 .Rproj.user/F5514539/sources/s-14782F16/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 DESCRIPTION
+ create mode 100644 NAMESPACE
+ create mode 100644 R/hello.R
+ create mode 100644 man/hello.Rd
+ create mode 100644 plumber/plumber.R
+ create mode 100644 plumberAPI.Rproj
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git push origin master
+Enumerating objects: 30, done.
+Counting objects:   3% (1/30)   Counting objects:   6% (2/30)   Counting objects:  10% (3/30)   Counting objects:  13% (4/30)   Counting objects:  16% (5/30)   Counting objects:  20% (6/30)   Counting objects:  23% (7/30)   Counting objects:  26% (8/30)   Counting objects:  30% (9/30)   Counting objects:  33% (10/30)   Counting objects:  36% (11/30)   Counting objects:  40% (12/30)   Counting objects:  43% (13/30)   Counting objects:  46% (14/30)   Counting objects:  50% (15/30)   Counting objects:  53% (16/30)   Counting objects:  56% (17/30)   Counting objects:  60% (18/30)   Counting objects:  63% (19/30)   Counting objects:  66% (20/30)   Counting objects:  70% (21/30)   Counting objects:  73% (22/30)   Counting objects:  76% (23/30)   Counting objects:  80% (24/30)   Counting objects:  83% (25/30)   Counting objects:  86% (26/30)   Counting objects:  90% (27/30)   Counting objects:  93% (28/30)   Counting objects:  96% (29/30)   Counting objects: 100% (30/30)   Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads.
+Compressing objects:   5% (1/20)   Compressing objects:  10% (2/20)   Compressing objects:  15% (3/20)   Compressing objects:  20% (4/20)   Compressing objects:  25% (5/20)   Compressing objects:  30% (6/20)   Compressing objects:  35% (7/20)   Compressing objects:  40% (8/20)   Compressing objects:  45% (9/20)   Compressing objects:  50% (10/20)   Compressing objects:  55% (11/20)   Compressing objects:  60% (12/20)   Compressing objects:  65% (13/20)   Compressing objects:  70% (14/20)   Compressing objects:  75% (15/20)   Compressing objects:  80% (16/20)   Compressing objects:  85% (17/20)   Compressing objects:  90% (18/20)   Compressing objects:  95% (19/20)   Compressing objects: 100% (20/20)   Compressing objects: 100% (20/20), done.
+Writing objects:   3% (1/29)   Writing objects:   6% (2/29)   Writing objects:  10% (3/29)   Writing objects:  13% (4/29)   Writing objects:  17% (5/29)   Writing objects:  20% (6/29)   Writing objects:  24% (7/29)   Writing objects:  27% (8/29)   Writing objects:  31% (9/29)   Writing objects:  34% (10/29)   Writing objects:  37% (11/29)   Writing objects:  41% (12/29)   Writing objects:  44% (13/29)   Writing objects:  48% (14/29)   Writing objects:  51% (15/29)   Writing objects:  58% (17/29)   Writing objects:  62% (18/29)   Writing objects:  65% (19/29)   Writing objects:  68% (20/29)   Writing objects:  72% (21/29)   Writing objects:  75% (22/29)   Writing objects:  79% (23/29)   Writing objects:  82% (24/29)   Writing objects:  86% (25/29)   Writing objects:  89% (26/29)   Writing objects:  93% (27/29)   Writing objects:  96% (28/29)   Writing objects: 100% (29/29)   Writing objects: 100% (29/29), 5.38 KiB | 104.00 KiB/s, done.
+Total 29 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), done.[K
+To github.com:fdrennan/plumberAPI.git
+   2ec91fa..31d79aa  master -> master
+]0;~/Documents/R/plumberAPI[?1034hdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $  mkdir misc
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $  cd misc/
+]0;~/Documents/R/plumberAPI/miscdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (masterr)[00m $ touch Dockerfile
+]0;~/Documents/R/plumberAPI/miscdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (masterr)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (masteer)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/pluumberAPI/misc[33m (master)[00m $ touch docker-compose .yaml
+]0;~/Documents/R/plumberAPI/miscdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents//R/plumberAPI/misc[33m (master)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/miisc[33m (master)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Doocuments/R/plumberAPI/misc[33m (master)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[333m (master)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[333m (master)[00m $ touch nginx.conf
+]0;~/Documents/R/plumberAPI/miscdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (mmaster)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI/misc[33m (mastter)[00m $ git add --all
