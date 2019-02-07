@@ -1,6 +1,10 @@
 # plumberAPI
 
 ```
+sudo passwd ubuntu
+```
+
+```
 sudo apt-get install git
 ```
 
@@ -37,7 +41,7 @@ git clone https://github.com/fdrennan/plumberAPI.git
 ```
 ```
 sudo cp /home/ubuntu/plumberAPI/misc/nginx.conf /etc/nginx/conf.d/nginx.conf
-sudo /etc/init.d/nginx start
+sudo /etc/init.d/nginx restart
 ```
 
 ```
