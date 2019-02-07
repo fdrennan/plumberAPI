@@ -27,6 +27,9 @@ sudo add-apt-repository \
    stable"
    
 sudo usermod -aG docker ubuntu
+
+sudo apt  install docker-compose
+
 ```
 
 ```
