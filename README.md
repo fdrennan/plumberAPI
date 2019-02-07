@@ -1,5 +1,8 @@
 # plumberAPI
 
+```
+sudo apt-get install git
+```
 
 ```
 sudo apt update
@@ -26,3 +29,10 @@ sudo add-apt-repository \
 sudo usermod -aG docker ubuntu
 ```
 
+```
+git clone https://github.com/fdrennan/plumberAPI.git
+```
+```
+sudo cp /home/ubuntu/plumberAPI/misc/nginx.conf /etc/nginx/conf.d/nginx.conf
+sudo /etc/init.d/nginx start
+```
