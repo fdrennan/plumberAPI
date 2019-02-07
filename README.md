@@ -46,7 +46,7 @@ sudo usermod -aG docker ubuntu
 sudo apt  install docker-compose
 ```
 
-# >>>> Log out and log in now to update docker to allow sudo. 
+# >>>> Log out and log in now to update docker to use without sudo. 
 
 
 Update this repo with your cloned repo. 
