@@ -54,11 +54,7 @@ Update this repo with your cloned repo.
 git clone https://github.com/fdrennan/plumberAPI.git
 ```
 
-
-IMPORTANT
-#######
-# UPDATE THE NGINX.CONF FILE WITH YOUR PUBLIC IP ADDRESS
-#####
+# >>>>  UPDATE THE NGINX.CONF FILE WITH YOUR PUBLIC IP ADDRESS
 ```
 vim /home/ubuntu/plumberAPI/misc/nginx.conf
 sudo cp /home/ubuntu/plumberAPI/misc/nginx.conf /etc/nginx/conf.d/nginx.conf
