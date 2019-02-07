@@ -231,3 +231,725 @@ remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4) 
 To github.com:fdrennan/plumberAPI.git
    d223dbd..5469c9c  master -> master
 ]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Doocuments/R/plumberAPI[33m (masteer)[00m $ [K[A[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $  [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git add --all
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git commit -m 'update'
+[master 0fa14d2] update
+ 3 files changed, 22 insertions(+), 3 deletions(-)
+ rewrite .Rproj.user/F5514539/console06/INDEX001 (70%)
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git push origin master
+Enumerating objects: 15, done.
+Counting objects:   6% (1/15)   Counting objects:  13% (2/15)   Counting objects:  20% (3/15)   Counting objects:  26% (4/15)   Counting objects:  33% (5/15)   Counting objects:  40% (6/15)   Counting objects:  46% (7/15)   Counting objects:  53% (8/15)   Counting objects:  60% (9/15)   Counting objects:  66% (10/15)   Counting objects:  73% (11/15)   Counting objects:  80% (12/15)   Counting objects:  86% (13/15)   Counting objects:  93% (14/15)   Counting objects: 100% (15/15)   Counting objects: 100% (15/15), done.
+Delta compression using up to 8 threads.
+Compressing objects:  12% (1/8)   Compressing objects:  25% (2/8)   Compressing objects:  37% (3/8)   Compressing objects:  50% (4/8)   Compressing objects:  62% (5/8)   Compressing objects:  75% (6/8)   Compressing objects:  87% (7/8)   Compressing objects: 100% (8/8)   Compressing objects: 100% (8/8), done.
+Writing objects:  12% (1/8)   Writing objects:  25% (2/8)   Writing objects:  37% (3/8)   Writing objects:  50% (4/8)   Writing objects:  62% (5/8)   Writing objects:  75% (6/8)   Writing objects:  87% (7/8)   Writing objects: 100% (8/8)   Writing objects: 100% (8/8), 900 bytes | 60.00 KiB/s, done.
+Total 8 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:fdrennan/plumberAPI.git
+   5469c9c..0fa14d2  master -> master
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master) [00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master))[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (mmaster)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (maaster)[00m $ [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $  [K[Adigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ siege -t 10 http://18.218.50.42/wait
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+** SIEGE 4.0.4
+** Preparing 25 concurrent users for battle.
+The server is now under siege...
+[0;34mHTTP/1.1 200     2.52 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.53 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.56 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.56 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.56 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.57 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.58 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.59 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.61 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.62 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.63 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.67 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.79 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.82 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.83 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.67 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.79 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.29 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.27 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.28 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.28 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.34 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.29 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.30 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.28 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.05 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.23 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.82 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.89 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.82 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.83 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.16 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.92 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.90 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.09 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.85 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.82 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.16 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.88 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.05 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.12 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.08 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.91 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.17 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.16 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.82 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.17 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.92 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.13 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.08 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.99 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.90 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.89 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.06 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.26 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.16 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.18 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.15 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.83 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.05 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.08 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.20 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.97 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.67 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.79 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.96 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.97 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.97 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.17 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.86 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.95 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.97 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.84 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.06 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.97 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.05 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.81 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.97 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.16 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.93 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.13 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.91 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.94 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.03 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.19 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+^C
+Lifting the server siege...
+Transactions:		         517 hits
+Availability:		      100.00 %
+Elapsed time:		       96.43 secs
+Data transferred:	        0.01 MB
+Response time:		        4.53 secs
+Transaction rate:	        5.36 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       24.27
+Successful transactions:         517
+Failed transactions:	           0
+Longest transaction:	        6.84
+Shortest transaction:	        2.52
+ 
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ 
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ siege -t10s http://18.218.50.42/wait
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+** SIEGE 4.0.4
+** Preparing 25 concurrent users for battle.
+The server is now under siege...
+[0;34mHTTP/1.1 200     2.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.52 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.64 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.68 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.10 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.11 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.54 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.64 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.68 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.12 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.12 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.12 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.48 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.53 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.58 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.59 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.48 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.02 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.44 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.01 secs:      28 bytes ==> GET  /wait[0m
+
+Lifting the server siege...
+Transactions:		          41 hits
+Availability:		      100.00 %
+Elapsed time:		        9.40 secs
+Data transferred:	        0.00 MB
+Response time:		        4.05 secs
+Transaction rate:	        4.36 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       17.66
+Successful transactions:          41
+Failed transactions:	           0
+Longest transaction:	        6.12
+Shortest transaction:	        2.10
+ 
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ siege -t10s http://18.218.50.42:8003/wait
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+** SIEGE 4.0.4
+** Preparing 25 concurrent users for battle.
+The server is now under siege...
+[0;34mHTTP/1.1 200     3.49 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.56 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     7.50 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     9.55 secs:      28 bytes ==> GET  /wait[0m
+
+Lifting the server siege...
+Transactions:		           4 hits
+Availability:		      100.00 %
+Elapsed time:		        9.77 secs
+Data transferred:	        0.00 MB
+Response time:		        6.53 secs
+Transaction rate:	        0.41 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        2.67
+Successful transactions:           4
+Failed transactions:	           0
+Longest transaction:	        9.55
+Shortest transaction:	        0.00
+ 
+siege -t10s http://3.16.48.38:8003/wait]0;~/Documents/R/plumberAPI[?1034hdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ siege -t10s http://3.16.48.38:8003/wait
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+** SIEGE 4.0.4
+** Preparing 25 concurrent users for battle.
+The server is now under siege...
+[0;34mHTTP/1.1 200     2.29 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.34 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.28 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     8.33 secs:      28 bytes ==> GET  /wait[0m
+
+Lifting the server siege...
+Transactions:		           4 hits
+Availability:		      100.00 %
+Elapsed time:		        9.65 secs
+Data transferred:	        0.00 MB
+Response time:		        5.31 secs
+Transaction rate:	        0.41 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        2.20
+Successful transactions:           4
+Failed transactions:	           0
+Longest transaction:	        8.33
+Shortest transaction:	        0.00
+ 
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ siege -t10s http://3.16.48.38/wait
+[[1;32malert[0m] Zip encoding disabled; siege requires zlib support to enable it
+** SIEGE 4.0.4
+** Preparing 25 concurrent users for battle.
+The server is now under siege...
+[0;34mHTTP/1.1 200     2.31 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.44 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.44 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.48 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.49 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.52 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.54 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.55 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.56 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     2.59 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.40 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.51 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.53 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.59 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.66 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.67 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.68 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.70 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.71 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.72 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.92 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.52 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.05 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.15 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.67 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.14 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.16 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.22 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.72 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.80 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     5.96 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.87 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.06 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.27 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     3.98 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.04 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     4.00 secs:      28 bytes ==> GET  /wait[0m
+[0;34mHTTP/1.1 200     6.13 secs:      28 bytes ==> GET  /wait[0m
+
+Lifting the server siege...
+Transactions:		          40 hits
+Availability:		      100.00 %
+Elapsed time:		        9.30 secs
+Data transferred:	        0.00 MB
+Response time:		        4.10 secs
+Transaction rate:	        4.30 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       17.62
+Successful transactions:          40
+Failed transactions:	           0
+Longest transaction:	        6.72
+Shortest transaction:	        2.31
+ 
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ [Kdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ git add --all
