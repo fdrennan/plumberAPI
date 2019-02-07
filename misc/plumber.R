@@ -18,6 +18,15 @@ function(msg = "") {
     list(msg = paste0("The message is: '", msg, "'"))
 }
 
+
+#* Echo back the input
+#* @param msg The message to echo
+#* @get /wait
+function() {
+  Sys.sleep(2)
+  list(msg = paste0("Completed sleep."))
+}
+
 #* Plot a histogram
 #* @png
 #* @get /plot
