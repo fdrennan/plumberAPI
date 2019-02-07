@@ -115,3 +115,18 @@ DESCRIPTION		README.md		plumber
 NAMESPACE		man			plumberAPI.Rproj
 R			misc
 ]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ g it add --all
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ g it commit -m 'pd[K[Kupdate'
+[master 8a10375] update
+ 3 files changed, 26 insertions(+), 16 deletions(-)
+ rewrite .Rproj.user/F5514539/console06/INDEX001 (71%)
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ g it push origin master
+Enumerating objects: 17, done.
+Counting objects:   5% (1/17)   Counting objects:  11% (2/17)   Counting objects:  17% (3/17)   Counting objects:  23% (4/17)   Counting objects:  29% (5/17)   Counting objects:  35% (6/17)   Counting objects:  41% (7/17)   Counting objects:  47% (8/17)   Counting objects:  52% (9/17)   Counting objects:  58% (10/17)   Counting objects:  64% (11/17)   Counting objects:  70% (12/17)   Counting objects:  76% (13/17)   Counting objects:  82% (14/17)   Counting objects:  88% (15/17)   Counting objects:  94% (16/17)   Counting objects: 100% (17/17)   Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads.
+Compressing objects:  11% (1/9)   Compressing objects:  22% (2/9)   Compressing objects:  33% (3/9)   Compressing objects:  44% (4/9)   Compressing objects:  55% (5/9)   Compressing objects:  66% (6/9)   Compressing objects:  77% (7/9)   Compressing objects:  88% (8/9)   Compressing objects: 100% (9/9)   Compressing objects: 100% (9/9), done.
+Writing objects:  11% (1/9)   Writing objects:  22% (2/9)   Writing objects:  33% (3/9)   Writing objects:  44% (4/9)   Writing objects:  55% (5/9)   Writing objects:  66% (6/9)   Writing objects:  77% (7/9)   Writing objects:  88% (8/9)   Writing objects: 100% (9/9)   Writing objects: 100% (9/9), 1.39 KiB | 713.00 KiB/s, done.
+Total 9 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)   [Kremote: Resolving deltas:  25% (1/4)   [Kremote: Resolving deltas:  50% (2/4)   [Kremote: Resolving deltas:  75% (3/4)   [Kremote: Resolving deltas: 100% (4/4)   [Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:fdrennan/plumberAPI.git
+   8a11fbb..8a10375  master -> master
+]0;~/Documents/R/plumberAPIdigitalfirstmedia@Digitals-MacBook-Pro [32m~/Documents/R/plumberAPI[33m (master)[00m $ g it add --all
