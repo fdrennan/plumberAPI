@@ -70,7 +70,7 @@ docker-compose up -d
 docker-compose down
 ```
 
-Tru and siege it. Replace with your IP. 
+Try and siege it. Replace with your IP. 
 ```
 siege -t10s http://3.16.48.38/wait
 siege -t10s http://3.16.48.38:8003/wait
