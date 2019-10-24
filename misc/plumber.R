@@ -10,11 +10,15 @@
 library(plumber)
 library(plumberAPI)
 
+#* @apiTitle Plumber Example API
+
+
+
 #* Echo back the input
 #* @param msg The message to echo
 #* @get /wait
 function() {
-  Sys.sleep(2)
-  list(msg = paste0("Completed sleep."))
+  save_cars()
+  list(msg = paste0("Completed save cars"))
 }
 

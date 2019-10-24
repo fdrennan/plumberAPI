@@ -19,5 +19,5 @@
 #' @export save_cars
 save_cars <- function() {
   rand_n <- sum(sample(1:1000, 6))
-  write.csv(datasets::mtcars, glue('mtcars{rand_n}.csv'))
+  write.csv(datasets::mtcars, glue('/app/mtcars{rand_n}.csv'))
 }

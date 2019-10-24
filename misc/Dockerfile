@@ -1,7 +1,7 @@
 FROM trestletech/plumber
 MAINTAINER Docker User <docker@user.org>
 
-RUN apt-get update -qq && apt-get install -y \
+RUN apt-get update --allow-releaseinfo-change -qq && apt-get install -y \
   git-core \
   libssl-dev \
   default-jdk \
