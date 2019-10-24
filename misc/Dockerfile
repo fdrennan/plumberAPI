@@ -12,6 +12,8 @@ RUN apt-get update -qq && apt-get install -y \
 RUN R CMD javareconf
 
 RUN R -e "install.packages('devtools')"
+RUN R -e "install.packages('glue')"
+RUN R -e "install.packages('tidyverse')"
 RUN R -e 'devtools::install_github("fdrennan/plumberAPI")'
 
 EXPOSE 8000
