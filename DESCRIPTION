@@ -8,7 +8,9 @@ Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
-Imports:
-    glue
+Depends:
+    glue,
+    tidyverse,
+    jsonlite
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
